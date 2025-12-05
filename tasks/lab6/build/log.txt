@@ -1,6 +1,3 @@
 [LOG] Alduin (Dragon) killed Ferdinand (Bull)
 [LOG] Minotaur (Bull) killed Pepe (Frog)
 [LOG] Smaug (Dragon) killed Minotaur (Bull)
-[LOG] Alduin (Dragon) killed Ferdinand (Bull)
-[LOG] Minotaur (Bull) killed Pepe (Frog)
-[LOG] Smaug (Dragon) killed Minotaur (Bull)

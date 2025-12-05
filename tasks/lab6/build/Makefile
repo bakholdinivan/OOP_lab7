@@ -310,30 +310,6 @@ src/arena.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab06_lib.dir/build.make CMakeFiles/lab06_lib.dir/src/arena.cpp.s
 .PHONY : src/arena.cpp.s
 
-src/bull.o: src/bull.cpp.o
-.PHONY : src/bull.o
-
-# target to build an object file
-src/bull.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab06_lib.dir/build.make CMakeFiles/lab06_lib.dir/src/bull.cpp.o
-.PHONY : src/bull.cpp.o
-
-src/bull.i: src/bull.cpp.i
-.PHONY : src/bull.i
-
-# target to preprocess a source file
-src/bull.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab06_lib.dir/build.make CMakeFiles/lab06_lib.dir/src/bull.cpp.i
-.PHONY : src/bull.cpp.i
-
-src/bull.s: src/bull.cpp.s
-.PHONY : src/bull.s
-
-# target to generate assembly for a file
-src/bull.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab06_lib.dir/build.make CMakeFiles/lab06_lib.dir/src/bull.cpp.s
-.PHONY : src/bull.cpp.s
-
 src/combat_visitor.o: src/combat_visitor.cpp.o
 .PHONY : src/combat_visitor.o
 
@@ -358,29 +334,29 @@ src/combat_visitor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab06_lib.dir/build.make CMakeFiles/lab06_lib.dir/src/combat_visitor.cpp.s
 .PHONY : src/combat_visitor.cpp.s
 
-src/dragon.o: src/dragon.cpp.o
-.PHONY : src/dragon.o
+src/creatures.o: src/creatures.cpp.o
+.PHONY : src/creatures.o
 
 # target to build an object file
-src/dragon.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab06_lib.dir/build.make CMakeFiles/lab06_lib.dir/src/dragon.cpp.o
-.PHONY : src/dragon.cpp.o
+src/creatures.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab06_lib.dir/build.make CMakeFiles/lab06_lib.dir/src/creatures.cpp.o
+.PHONY : src/creatures.cpp.o
 
-src/dragon.i: src/dragon.cpp.i
-.PHONY : src/dragon.i
+src/creatures.i: src/creatures.cpp.i
+.PHONY : src/creatures.i
 
 # target to preprocess a source file
-src/dragon.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab06_lib.dir/build.make CMakeFiles/lab06_lib.dir/src/dragon.cpp.i
-.PHONY : src/dragon.cpp.i
+src/creatures.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab06_lib.dir/build.make CMakeFiles/lab06_lib.dir/src/creatures.cpp.i
+.PHONY : src/creatures.cpp.i
 
-src/dragon.s: src/dragon.cpp.s
-.PHONY : src/dragon.s
+src/creatures.s: src/creatures.cpp.s
+.PHONY : src/creatures.s
 
 # target to generate assembly for a file
-src/dragon.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab06_lib.dir/build.make CMakeFiles/lab06_lib.dir/src/dragon.cpp.s
-.PHONY : src/dragon.cpp.s
+src/creatures.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab06_lib.dir/build.make CMakeFiles/lab06_lib.dir/src/creatures.cpp.s
+.PHONY : src/creatures.cpp.s
 
 src/factory.o: src/factory.cpp.o
 .PHONY : src/factory.o
@@ -405,30 +381,6 @@ src/factory.s: src/factory.cpp.s
 src/factory.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab06_lib.dir/build.make CMakeFiles/lab06_lib.dir/src/factory.cpp.s
 .PHONY : src/factory.cpp.s
-
-src/frog.o: src/frog.cpp.o
-.PHONY : src/frog.o
-
-# target to build an object file
-src/frog.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab06_lib.dir/build.make CMakeFiles/lab06_lib.dir/src/frog.cpp.o
-.PHONY : src/frog.cpp.o
-
-src/frog.i: src/frog.cpp.i
-.PHONY : src/frog.i
-
-# target to preprocess a source file
-src/frog.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab06_lib.dir/build.make CMakeFiles/lab06_lib.dir/src/frog.cpp.i
-.PHONY : src/frog.cpp.i
-
-src/frog.s: src/frog.cpp.s
-.PHONY : src/frog.s
-
-# target to generate assembly for a file
-src/frog.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab06_lib.dir/build.make CMakeFiles/lab06_lib.dir/src/frog.cpp.s
-.PHONY : src/frog.cpp.s
 
 src/npc.o: src/npc.cpp.o
 .PHONY : src/npc.o
@@ -504,21 +456,15 @@ help:
 	@echo "... src/arena.o"
 	@echo "... src/arena.i"
 	@echo "... src/arena.s"
-	@echo "... src/bull.o"
-	@echo "... src/bull.i"
-	@echo "... src/bull.s"
 	@echo "... src/combat_visitor.o"
 	@echo "... src/combat_visitor.i"
 	@echo "... src/combat_visitor.s"
-	@echo "... src/dragon.o"
-	@echo "... src/dragon.i"
-	@echo "... src/dragon.s"
+	@echo "... src/creatures.o"
+	@echo "... src/creatures.i"
+	@echo "... src/creatures.s"
 	@echo "... src/factory.o"
 	@echo "... src/factory.i"
 	@echo "... src/factory.s"
-	@echo "... src/frog.o"
-	@echo "... src/frog.i"
-	@echo "... src/frog.s"
 	@echo "... src/npc.o"
 	@echo "... src/npc.i"
 	@echo "... src/npc.s"

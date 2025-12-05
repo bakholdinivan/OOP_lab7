@@ -1,0 +1,12 @@
+build/
+*.exe
+*.o
+*.obj
+*.log
+*.txt
+!CMakeLists.txt
+!README.txt
+.vs/
+.vscode/
+cmake-build-*/
+out/

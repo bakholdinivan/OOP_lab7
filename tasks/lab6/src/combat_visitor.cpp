@@ -1,6 +1,11 @@
 #include "../include/combat_visitor.h"
 
+// ============================================
+// ОПРЕДЕЛЕНИЕ ПОБЕДИТЕЛЯ В БОЮ
+// ============================================
+
 bool CombatVisitor::canKill(Npc* attacker, Npc* defender) {
+    // Определяем тип атакующего и проверяем правила боя
     if (attacker->getType() == "Dragon") {
         return dragonVs(defender->getType());
     } else if (attacker->getType() == "Bull") {

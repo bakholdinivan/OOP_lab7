@@ -1,9 +1,7 @@
 #include <memory>
 #include <iostream>
 #include "../include/factory.h"
-#include "../include/dragon.h"
-#include "../include/bull.h"
-#include "../include/frog.h"
+#include "../include/creatures.h"
 #include <sstream>
 #include <stdexcept>
 

@@ -13,9 +13,7 @@ endif()
 
 add_library(lab06_lib 
     src/arena.cpp
-    src/dragon.cpp
-    src/bull.cpp
-    src/frog.cpp
+    src/creatures.cpp
     src/npc.cpp
     src/factory.cpp
     src/combat_visitor.cpp

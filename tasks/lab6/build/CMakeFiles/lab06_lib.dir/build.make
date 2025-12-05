@@ -83,52 +83,24 @@ CMakeFiles/lab06_lib.dir/src/arena.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab06_lib.dir/src/arena.cpp.s"
 	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/labs_OOP/tasks/lab6/src/arena.cpp -o CMakeFiles/lab06_lib.dir/src/arena.cpp.s
 
-CMakeFiles/lab06_lib.dir/src/dragon.cpp.o: CMakeFiles/lab06_lib.dir/flags.make
-CMakeFiles/lab06_lib.dir/src/dragon.cpp.o: /workspaces/labs_OOP/tasks/lab6/src/dragon.cpp
-CMakeFiles/lab06_lib.dir/src/dragon.cpp.o: CMakeFiles/lab06_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/labs_OOP/tasks/lab6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab06_lib.dir/src/dragon.cpp.o"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab06_lib.dir/src/dragon.cpp.o -MF CMakeFiles/lab06_lib.dir/src/dragon.cpp.o.d -o CMakeFiles/lab06_lib.dir/src/dragon.cpp.o -c /workspaces/labs_OOP/tasks/lab6/src/dragon.cpp
+CMakeFiles/lab06_lib.dir/src/creatures.cpp.o: CMakeFiles/lab06_lib.dir/flags.make
+CMakeFiles/lab06_lib.dir/src/creatures.cpp.o: /workspaces/labs_OOP/tasks/lab6/src/creatures.cpp
+CMakeFiles/lab06_lib.dir/src/creatures.cpp.o: CMakeFiles/lab06_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/labs_OOP/tasks/lab6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab06_lib.dir/src/creatures.cpp.o"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab06_lib.dir/src/creatures.cpp.o -MF CMakeFiles/lab06_lib.dir/src/creatures.cpp.o.d -o CMakeFiles/lab06_lib.dir/src/creatures.cpp.o -c /workspaces/labs_OOP/tasks/lab6/src/creatures.cpp
 
-CMakeFiles/lab06_lib.dir/src/dragon.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab06_lib.dir/src/dragon.cpp.i"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/labs_OOP/tasks/lab6/src/dragon.cpp > CMakeFiles/lab06_lib.dir/src/dragon.cpp.i
+CMakeFiles/lab06_lib.dir/src/creatures.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab06_lib.dir/src/creatures.cpp.i"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/labs_OOP/tasks/lab6/src/creatures.cpp > CMakeFiles/lab06_lib.dir/src/creatures.cpp.i
 
-CMakeFiles/lab06_lib.dir/src/dragon.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab06_lib.dir/src/dragon.cpp.s"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/labs_OOP/tasks/lab6/src/dragon.cpp -o CMakeFiles/lab06_lib.dir/src/dragon.cpp.s
-
-CMakeFiles/lab06_lib.dir/src/bull.cpp.o: CMakeFiles/lab06_lib.dir/flags.make
-CMakeFiles/lab06_lib.dir/src/bull.cpp.o: /workspaces/labs_OOP/tasks/lab6/src/bull.cpp
-CMakeFiles/lab06_lib.dir/src/bull.cpp.o: CMakeFiles/lab06_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/labs_OOP/tasks/lab6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab06_lib.dir/src/bull.cpp.o"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab06_lib.dir/src/bull.cpp.o -MF CMakeFiles/lab06_lib.dir/src/bull.cpp.o.d -o CMakeFiles/lab06_lib.dir/src/bull.cpp.o -c /workspaces/labs_OOP/tasks/lab6/src/bull.cpp
-
-CMakeFiles/lab06_lib.dir/src/bull.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab06_lib.dir/src/bull.cpp.i"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/labs_OOP/tasks/lab6/src/bull.cpp > CMakeFiles/lab06_lib.dir/src/bull.cpp.i
-
-CMakeFiles/lab06_lib.dir/src/bull.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab06_lib.dir/src/bull.cpp.s"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/labs_OOP/tasks/lab6/src/bull.cpp -o CMakeFiles/lab06_lib.dir/src/bull.cpp.s
-
-CMakeFiles/lab06_lib.dir/src/frog.cpp.o: CMakeFiles/lab06_lib.dir/flags.make
-CMakeFiles/lab06_lib.dir/src/frog.cpp.o: /workspaces/labs_OOP/tasks/lab6/src/frog.cpp
-CMakeFiles/lab06_lib.dir/src/frog.cpp.o: CMakeFiles/lab06_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/labs_OOP/tasks/lab6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab06_lib.dir/src/frog.cpp.o"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab06_lib.dir/src/frog.cpp.o -MF CMakeFiles/lab06_lib.dir/src/frog.cpp.o.d -o CMakeFiles/lab06_lib.dir/src/frog.cpp.o -c /workspaces/labs_OOP/tasks/lab6/src/frog.cpp
-
-CMakeFiles/lab06_lib.dir/src/frog.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab06_lib.dir/src/frog.cpp.i"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/labs_OOP/tasks/lab6/src/frog.cpp > CMakeFiles/lab06_lib.dir/src/frog.cpp.i
-
-CMakeFiles/lab06_lib.dir/src/frog.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab06_lib.dir/src/frog.cpp.s"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/labs_OOP/tasks/lab6/src/frog.cpp -o CMakeFiles/lab06_lib.dir/src/frog.cpp.s
+CMakeFiles/lab06_lib.dir/src/creatures.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab06_lib.dir/src/creatures.cpp.s"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/labs_OOP/tasks/lab6/src/creatures.cpp -o CMakeFiles/lab06_lib.dir/src/creatures.cpp.s
 
 CMakeFiles/lab06_lib.dir/src/npc.cpp.o: CMakeFiles/lab06_lib.dir/flags.make
 CMakeFiles/lab06_lib.dir/src/npc.cpp.o: /workspaces/labs_OOP/tasks/lab6/src/npc.cpp
 CMakeFiles/lab06_lib.dir/src/npc.cpp.o: CMakeFiles/lab06_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/labs_OOP/tasks/lab6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lab06_lib.dir/src/npc.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/labs_OOP/tasks/lab6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab06_lib.dir/src/npc.cpp.o"
 	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab06_lib.dir/src/npc.cpp.o -MF CMakeFiles/lab06_lib.dir/src/npc.cpp.o.d -o CMakeFiles/lab06_lib.dir/src/npc.cpp.o -c /workspaces/labs_OOP/tasks/lab6/src/npc.cpp
 
 CMakeFiles/lab06_lib.dir/src/npc.cpp.i: cmake_force
@@ -142,7 +114,7 @@ CMakeFiles/lab06_lib.dir/src/npc.cpp.s: cmake_force
 CMakeFiles/lab06_lib.dir/src/factory.cpp.o: CMakeFiles/lab06_lib.dir/flags.make
 CMakeFiles/lab06_lib.dir/src/factory.cpp.o: /workspaces/labs_OOP/tasks/lab6/src/factory.cpp
 CMakeFiles/lab06_lib.dir/src/factory.cpp.o: CMakeFiles/lab06_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/labs_OOP/tasks/lab6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/lab06_lib.dir/src/factory.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/labs_OOP/tasks/lab6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab06_lib.dir/src/factory.cpp.o"
 	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab06_lib.dir/src/factory.cpp.o -MF CMakeFiles/lab06_lib.dir/src/factory.cpp.o.d -o CMakeFiles/lab06_lib.dir/src/factory.cpp.o -c /workspaces/labs_OOP/tasks/lab6/src/factory.cpp
 
 CMakeFiles/lab06_lib.dir/src/factory.cpp.i: cmake_force
@@ -156,7 +128,7 @@ CMakeFiles/lab06_lib.dir/src/factory.cpp.s: cmake_force
 CMakeFiles/lab06_lib.dir/src/combat_visitor.cpp.o: CMakeFiles/lab06_lib.dir/flags.make
 CMakeFiles/lab06_lib.dir/src/combat_visitor.cpp.o: /workspaces/labs_OOP/tasks/lab6/src/combat_visitor.cpp
 CMakeFiles/lab06_lib.dir/src/combat_visitor.cpp.o: CMakeFiles/lab06_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/labs_OOP/tasks/lab6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/lab06_lib.dir/src/combat_visitor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/labs_OOP/tasks/lab6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lab06_lib.dir/src/combat_visitor.cpp.o"
 	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab06_lib.dir/src/combat_visitor.cpp.o -MF CMakeFiles/lab06_lib.dir/src/combat_visitor.cpp.o.d -o CMakeFiles/lab06_lib.dir/src/combat_visitor.cpp.o -c /workspaces/labs_OOP/tasks/lab6/src/combat_visitor.cpp
 
 CMakeFiles/lab06_lib.dir/src/combat_visitor.cpp.i: cmake_force
@@ -170,9 +142,7 @@ CMakeFiles/lab06_lib.dir/src/combat_visitor.cpp.s: cmake_force
 # Object files for target lab06_lib
 lab06_lib_OBJECTS = \
 "CMakeFiles/lab06_lib.dir/src/arena.cpp.o" \
-"CMakeFiles/lab06_lib.dir/src/dragon.cpp.o" \
-"CMakeFiles/lab06_lib.dir/src/bull.cpp.o" \
-"CMakeFiles/lab06_lib.dir/src/frog.cpp.o" \
+"CMakeFiles/lab06_lib.dir/src/creatures.cpp.o" \
 "CMakeFiles/lab06_lib.dir/src/npc.cpp.o" \
 "CMakeFiles/lab06_lib.dir/src/factory.cpp.o" \
 "CMakeFiles/lab06_lib.dir/src/combat_visitor.cpp.o"
@@ -181,15 +151,13 @@ lab06_lib_OBJECTS = \
 lab06_lib_EXTERNAL_OBJECTS =
 
 liblab06_lib.a: CMakeFiles/lab06_lib.dir/src/arena.cpp.o
-liblab06_lib.a: CMakeFiles/lab06_lib.dir/src/dragon.cpp.o
-liblab06_lib.a: CMakeFiles/lab06_lib.dir/src/bull.cpp.o
-liblab06_lib.a: CMakeFiles/lab06_lib.dir/src/frog.cpp.o
+liblab06_lib.a: CMakeFiles/lab06_lib.dir/src/creatures.cpp.o
 liblab06_lib.a: CMakeFiles/lab06_lib.dir/src/npc.cpp.o
 liblab06_lib.a: CMakeFiles/lab06_lib.dir/src/factory.cpp.o
 liblab06_lib.a: CMakeFiles/lab06_lib.dir/src/combat_visitor.cpp.o
 liblab06_lib.a: CMakeFiles/lab06_lib.dir/build.make
 liblab06_lib.a: CMakeFiles/lab06_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspaces/labs_OOP/tasks/lab6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library liblab06_lib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspaces/labs_OOP/tasks/lab6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library liblab06_lib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/lab06_lib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab06_lib.dir/link.txt --verbose=$(VERBOSE)
 

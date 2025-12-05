@@ -1,0 +1,9 @@
+#pragma once
+#include "NPC.h"
+
+class Dragon : public NPC {
+public:
+    Dragon(const std::string& name, double x, double y);
+    void accept(BattleVisitor& visitor, NPC& other) override;
+    std::string getType() const override { return "Dragon"; }
+};
