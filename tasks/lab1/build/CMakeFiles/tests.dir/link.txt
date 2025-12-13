@@ -1,1 +1,0 @@
-/usr/local/bin/c++  -Werror=maybe-uninitialized CMakeFiles/tests.dir/tests/test_box_capacity.cpp.o -o tests  liblab1_lib.a lib/libgtest_main.a lib/libgtest.a 

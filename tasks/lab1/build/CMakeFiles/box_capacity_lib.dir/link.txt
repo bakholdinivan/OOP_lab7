@@ -1,2 +1,0 @@
-/usr/bin/ar qc libbox_capacity_lib.a CMakeFiles/box_capacity_lib.dir/src/box_capacity.cpp.o
-/usr/bin/ranlib libbox_capacity_lib.a
