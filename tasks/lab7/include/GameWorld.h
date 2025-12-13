@@ -50,4 +50,8 @@ public:
     std::vector<std::shared_ptr<NPC>> getSurvivors() const;
     
     void printMap() const;
+    void printMapGrid() const;
+
+private:
+    void printMapGridLocked() const;  // Версия без блокировки (для использования внутри printThread)
 };

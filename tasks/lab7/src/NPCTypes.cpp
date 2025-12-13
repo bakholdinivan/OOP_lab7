@@ -11,8 +11,8 @@ int Frog::getMoveDistance() const { return 1; }
 int Frog::getKillDistance() const { return 10; }
 
 bool Frog::canKill(const std::string& targetType) const {
-    //  Жаба убивает Быка
-    return targetType == "Бык";
+    // Жаба пассивна - спасается как может (никого не убивает)
+    return false;
 }
 
 void Frog::accept(BattleVisitor& visitor, NPC& other) {
@@ -47,8 +47,8 @@ int Dragon::getMoveDistance() const { return 50; }
 int Dragon::getKillDistance() const { return 30; }
 
 bool Dragon::canKill(const std::string& targetType) const {
-    // Дракон убивает Быка, но взаимно погибает с другим Драконом
-    return targetType == "Бык" || targetType == "Дракон";
+    // Дракон ест быков
+    return targetType == "Бык";
 }
 
 void Dragon::accept(BattleVisitor& visitor, NPC& other) {

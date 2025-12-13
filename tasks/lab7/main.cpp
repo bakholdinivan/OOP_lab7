@@ -37,10 +37,10 @@ int main() {
     std::cout << "Игра запускается..." << std::endl;
     std::cout << std::endl;
 
-    // Запускаем три потока
-    std::thread movement_thread(&GameWorld::movementThread, &world);
-    std::thread battle_thread(&GameWorld::battleThread, &world);
-    std::thread print_thread(&GameWorld::printThread, &world);
+    // Запускаем три потока с использованием лямбда-функций
+    std::thread movement_thread([&world]() { world.movementThread(); });
+    std::thread battle_thread([&world]() { world.battleThread(); });
+    std::thread print_thread([&world]() { world.printThread(); });
 
     // Ждем 30 секунд
     std::this_thread::sleep_for(std::chrono::seconds(GAME_DURATION_SEC));

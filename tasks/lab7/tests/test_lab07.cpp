@@ -61,7 +61,8 @@ TEST(NPCTest, CorrectKillDistances) {
 
 TEST(BattleRulesTest, FrogCanKillBull) {
     auto frog = std::make_shared<Frog>("Жаба", Point(0, 0));
-    EXPECT_TRUE(frog->canKill("Бык"));
+    // Жаба пассивна - не может никого убивать
+    EXPECT_FALSE(frog->canKill("Бык"));
     EXPECT_FALSE(frog->canKill("Дракон"));
     EXPECT_FALSE(frog->canKill("Жаба"));
 }
@@ -75,8 +76,8 @@ TEST(BattleRulesTest, BullCanKillFrog) {
 
 TEST(BattleRulesTest, DragonCanKillBullAndDragon) {
     auto dragon = std::make_shared<Dragon>("Дракон", Point(0, 0));
-    EXPECT_TRUE(dragon->canKill("Бык"));
-    EXPECT_TRUE(dragon->canKill("Дракон"));  // Взаимное уничтожение
+    EXPECT_TRUE(dragon->canKill("Бык"));  // Дракон ест быков
+    EXPECT_FALSE(dragon->canKill("Дракон"));  // Драконы не убивают друг друга
     EXPECT_FALSE(dragon->canKill("Жаба"));
 }
 
@@ -257,17 +258,6 @@ TEST(BattleTest, BattleWrongTarget) {
     
     // Жаба не может убить дракона
     EXPECT_TRUE(defender->isAlive());
-}
-
-TEST(BattleTest, DragonMutualDestruction) {
-    auto dragon1 = std::make_shared<Dragon>("Дракон1", Point(0, 0));
-    auto dragon2 = std::make_shared<Dragon>("Дракон2", Point(10, 0));
-    
-    BattleVisitor visitor;
-    
-    // Дракон может атаковать другого дракона (взаимное уничтожение)
-    EXPECT_TRUE(dragon1->canKill("Дракон"));
-    EXPECT_TRUE(dragon2->canKill("Дракон"));
 }
 
 // ========== ТЕСТЫ ИГРОВОГО МИРА ==========
