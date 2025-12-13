@@ -1,1 +1,0 @@
-/usr/local/bin/c++ CMakeFiles/dungeon_editor.dir/main.cpp.o -o dungeon_editor  liblab06_lib.a 

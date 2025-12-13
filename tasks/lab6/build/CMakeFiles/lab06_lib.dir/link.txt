@@ -1,2 +1,0 @@
-/usr/bin/ar qc liblab06_lib.a CMakeFiles/lab06_lib.dir/src/arena.cpp.o CMakeFiles/lab06_lib.dir/src/creatures.cpp.o CMakeFiles/lab06_lib.dir/src/npc.cpp.o CMakeFiles/lab06_lib.dir/src/factory.cpp.o CMakeFiles/lab06_lib.dir/src/combat_visitor.cpp.o
-/usr/bin/ranlib liblab06_lib.a
