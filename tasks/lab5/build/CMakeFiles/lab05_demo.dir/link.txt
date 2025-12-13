@@ -1,1 +1,0 @@
-/usr/local/bin/c++ CMakeFiles/lab05_demo.dir/main.cpp.o -o lab05_demo  liblab05_lib.a 

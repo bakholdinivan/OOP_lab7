@@ -1,2 +1,0 @@
-/usr/bin/ar qc liblab05_lib.a CMakeFiles/lab05_lib.dir/src/fixed_memory_resource.cpp.o
-/usr/bin/ranlib liblab05_lib.a

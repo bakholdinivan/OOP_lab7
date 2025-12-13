@@ -1,1 +1,0 @@
-/usr/local/bin/c++ CMakeFiles/lab05_tests.dir/tests/test_lab05.cpp.o -o lab05_tests  liblab05_lib.a lib/libgtest_main.a lib/libgtest.a 

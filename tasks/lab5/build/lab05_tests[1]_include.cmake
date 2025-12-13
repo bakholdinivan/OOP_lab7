@@ -1,5 +1,0 @@
-if(EXISTS "/workspaces/labs_OOP/tasks/lab5/build/lab05_tests[1]_tests.cmake")
-  include("/workspaces/labs_OOP/tasks/lab5/build/lab05_tests[1]_tests.cmake")
-else()
-  add_test(lab05_tests_NOT_BUILT lab05_tests_NOT_BUILT)
-endif()
