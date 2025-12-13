@@ -1,2 +1,0 @@
-Dragon D1 100 100
-Dragon D2 110 110
