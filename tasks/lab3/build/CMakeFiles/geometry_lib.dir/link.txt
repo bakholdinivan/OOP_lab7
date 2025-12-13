@@ -1,2 +1,0 @@
-/usr/bin/ar qc libgeometry_lib.a CMakeFiles/geometry_lib.dir/src/Figure.cpp.o CMakeFiles/geometry_lib.dir/src/Square.cpp.o CMakeFiles/geometry_lib.dir/src/Rectangle.cpp.o CMakeFiles/geometry_lib.dir/src/Trapezoid.cpp.o CMakeFiles/geometry_lib.dir/src/Array.cpp.o
-/usr/bin/ranlib libgeometry_lib.a

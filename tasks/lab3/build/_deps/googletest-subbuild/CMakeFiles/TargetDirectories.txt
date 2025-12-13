@@ -1,3 +1,0 @@
-/workspaces/labs_OOP/tasks/lab3/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
-/workspaces/labs_OOP/tasks/lab3/build/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
-/workspaces/labs_OOP/tasks/lab3/build/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir
