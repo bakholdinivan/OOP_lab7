@@ -92,7 +92,7 @@ cd build
 cmake ..
 
 # Сборка
-build
+make
 
 ```
 
@@ -108,5 +108,5 @@ build
 ```bash
 # Из директории build/tasks/lab7
 
-./lab07_tests 
+./lab07_tests
 ```
